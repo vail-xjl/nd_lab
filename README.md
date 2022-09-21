@@ -11,7 +11,7 @@
 
 环境准备
 -------
-建议使用windows操作系统，笔者是在Python3.7的环境下开发。
+建议使用windows操作系统，笔者是在Python3.7的环境下开发。首先打开命令行：
 1. 利用conda创建虚拟环境并激活（如果没有conda或其他虚拟环境管理程序则跳过这步）
 ```
 conda create -n auto python=3.7
