@@ -14,7 +14,7 @@ import tkinter
 import datetime, time, threading, sys, getopt
 
 # 此处填写谷歌驱动器路径
-driverpath = "D:\Chromedriver\chromedriver.exe"
+driverpath = "data/chromedriver.exe"
 argv = sys.argv[1:]
 try:
     opts, args = getopt.getopt(argv, "hp:u:t:", ["user=", "password=", "time="])
