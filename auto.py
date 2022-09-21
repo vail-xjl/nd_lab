@@ -17,13 +17,13 @@ import datetime, time, threading, sys, getopt
 driverpath = "data/chromedriver.exe"
 argv = sys.argv[1:]
 try:
-    opts, args = getopt.getopt(argv, "hp:u:t:", ["user=", "password=", "time="])
+    opts, args = getopt.getopt(argv, "hp:u:t", ["user=", "password=", "time="])
 except getopt.GetoptError:
     print("python auto.py -u <username> -p <password> -t <time>")
     exit(0)
 user = ""
 password = ""
-total_time = 0
+total_time = 8
 for opt, arg in opts:
     if opt == "-h":
         print("python auto.py -u <username> -p <password> -t <time>")
