@@ -36,7 +36,12 @@ result.png
 
 开始执行任务
 ----------
-* 首先cd至【nd_lab】目录下，然后执行，你需要在-u后指定你的学号，在-p后指定你的教务处登录密码，在-t后指定你要学习的总时长数，默认为8
+* 首先克隆本项目在你的电脑上
+```
+git clone https://github.com/vail-xjl/nd_lab.git
+```
+
+* 然后cd至【nd_lab】目录下，然后执行，你需要在-u后指定你的学号，在-p后指定你的教务处登录密码，在-t后指定你要学习的总时长数，默认为8
 ```
 python auto.py -u <student_id> -p <password> -t <learn_time>
 ```
